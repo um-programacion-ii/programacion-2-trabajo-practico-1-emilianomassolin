@@ -1,11 +1,12 @@
 import vehiculos.Vehiculo;
-import vehiculos.VehiculoPrinter;
+import vehiculos.Camion;
+import impresora.VehiculoPrinter;
 
 public class Main {
     public static void main(String[] args) {
         Vehiculo v1 = new Vehiculo("ABC123", "Ford", 2015, 1500.0);
-        Vehiculo v2 = new Vehiculo("XYZ789", "Chevrolet", 2020, 1000.0);
-        Vehiculo v3 = new Vehiculo("LMN456", "Toyota", 2018, 1200.0);
+        Camion v2 = new Camion("XYZ789", "Mercedes", 2018, 8000.0, true);
+        Camion v3 = new Camion("LMN456", "Volvo", 2020, 10000.0, false);
 
         VehiculoPrinter printer = new VehiculoPrinter();
 
