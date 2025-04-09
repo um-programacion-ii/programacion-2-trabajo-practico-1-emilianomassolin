@@ -1,5 +1,6 @@
 import vehiculos.Vehiculo;
 import vehiculos.Camion;
+import vehiculos.Auto;
 import impresora.VehiculoPrinter;
 
 public class Main {
@@ -7,6 +8,7 @@ public class Main {
         Vehiculo v1 = new Vehiculo("ABC123", "Ford", 2015, 1500.0);
         Camion v2 = new Camion("XYZ789", "Mercedes", 2018, 8000.0, true);
         Camion v3 = new Camion("LMN456", "Volvo", 2020, 10000.0, false);
+        Auto a1 = new Auto("JKL321", "Toyota", 2022, 500.0, 5);
 
         VehiculoPrinter printer = new VehiculoPrinter();
 
@@ -18,5 +20,8 @@ public class Main {
 
         System.out.println("\nVehículo 3:");
         printer.imprimir(v3);
+
+        System.out.println("\nAuto:");
+        printer.imprimir(a1);
     }
 }
