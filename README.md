@@ -1,3 +1,42 @@
+## 🧾 Información del Proyecto
+
+**Nombre del alumno:**  
+**Emiliano Javier Massolin**
+
+**Trabajo Práctico:**  
+**Sistema de Gestión de Vehículos** – Programación 2
+
+**Lenguaje y herramientas utilizadas:**
+- Java SE 17
+- IntelliJ IDEA (recomendado)
+- Git y GitHub (Projects, Issues, Milestones, Pull Requests)
+- Principios SOLID: SRP, OCP, LSP
+- `ArrayList` para gestión dinámica de vehículos
+
+## 📋 Funcionalidades principales
+
+- Gestión de vehículos mediante una jerarquía de clases (`Vehiculo`, `Camion`, `Auto`)
+- Separación de responsabilidades con `VehiculoPrinter`
+- Aplicación de principios SOLID en diseño y extensión del sistema
+- Uso de `ArrayList` para almacenar y recorrer objetos
+- Búsqueda interactiva de vehículos por **patente**
+### ▶️ Compilación y ejecución
+
+#### Opción 1: Usando IntelliJ IDEA
+
+1. Abrí el proyecto en IntelliJ
+2. Configurá el JDK si es necesario (Java 17+)
+3. Hacé clic derecho en `Main.java` > `Run Main.main()`
+
+#### Opción 2: Desde la terminal
+
+
+javac src/vehiculos/*.java src/impresora/*.java src/Main.java
+java -cp src Main
+
+
+
+
 [![Review Assignment Due Date](https://classroom.github.com/assets/deadline-readme-button-22041afd0340ce965d47ae6ef1cefeee28c7c493a6346c4f15d667ab976d596c.svg)](https://classroom.github.com/a/-JQrLgaz)
 # 🧠 Trabajo Práctico: Sistema de Gestión de Vehículos (Java + SOLID + GitHub)
 
