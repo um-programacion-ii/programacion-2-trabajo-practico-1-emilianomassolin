@@ -33,7 +33,25 @@
 
 javac src/vehiculos/*.java src/impresora/*.java src/Main.java
 java -cp src Main
+## Ejemplo funcionamiento
+````
+ ===== LISTADO DE VEHÍCULOS =====
+Patente: ABC123
+Marca: Ford
+Año: 2015
+Capacidad de carga (kg): 1500.0
+----------------------------
+...
 
+🔍 Ingrese una patente para buscar: XYZ789
+
+✅ Vehículo encontrado:
+Patente: XYZ789
+Marca: Mercedes
+Año: 2018
+Capacidad de carga (kg): 8000.0
+¿Tiene acoplado?: Sí
+````
 
 
 
